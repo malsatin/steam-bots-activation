@@ -1,24 +1,24 @@
 {
-  "name": "bots-activation",
-  "version": "0.0.0",
-  "description": "Script that alows to get initial info for bots",
-  "main": "start.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MattRh/steam-bots-activation.git"
-  },
-  "keywords": [
-    "steam",
-    "bots",
-    "initialize"
-  ],
-  "author": "_malsa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MattRh/steam-bots-activation/issues"
-  },
-  "homepage": "https://github.com/MattRh/steam-bots-activation#readme"
+    "name": "bots-activation",
+    "version": "0.0.0",
+    "description": "Script that alows to get initial info for bots",
+    "main": "start.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MattRh/steam-bots-activation.git"
+    },
+    "keywords": [
+        "steam",
+        "bots",
+        "initialize"
+    ],
+    "author": "_malsa",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MattRh/steam-bots-activation/issues"
+    },
+    "homepage": "https://github.com/MattRh/steam-bots-activation#readme"
 }
