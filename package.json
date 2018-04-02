@@ -1,6 +1,6 @@
 {
     "name": "bots-activation",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Script that alows to get initial info for bots",
     "main": "activate.js",
     "private": true,
@@ -18,11 +18,11 @@
         "initialize"
     ],
     "dependencies": {
-        "json5": "^0.5.1",
+        "json5": "^1.0.1",
         "mysql": "^2.15.0",
         "readline": "^1.3.0",
-        "steamcommunity": "^3.33.1",
-        "steamstore": "^1.5.0"
+        "steamcommunity": "^3.35.1",
+        "steamstore": "^1.7.1"
     },
     "engines": {
         "node": ">=7.10.0"

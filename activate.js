@@ -31,6 +31,7 @@ mysql.query("SELECT MIN(id) min_id, MAX(id) max_id FROM bots", (err, rows) => {
 
         handleBot(botId).then(() => {
             console.log("The end");
+
             rl.close();
             process.stdin.destroy();
         });
@@ -45,7 +46,7 @@ function handleBot(id) {
             if(rows.length > 0) {
                 console.log("Bot id is valid");
 
-                let activator = new Activator(mysql, config.phoneNumber, new Bot(rows[0]));
+                let activator = new Activator(mysql, config.phoneNumber, new Bot(rows[0]), rl);
                 await activator.perform();
             } else {
                 console.error("Bot not found");
